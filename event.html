@@ -20,9 +20,12 @@
                     <option value="Fundraising">Fundraising</option>
                 </select> <br><br>
 
-                
+                <!--
                 Event Title: <input type="text" id="title" size="80" name="eventTitle"> <br><br>
-
+                -->
+                
+                <!-- EVENT TITLE -->
+                Event Title: <input type="text" id="title" size="80" name="eventTitle" pattern="[A-Za-z0-9 !?':-,]{3,40}" required> <br><br>
             
                 Event Dates: <input type="text" id="dates" size="10" name="fromDate" pattern="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](20)\d\d$" placeholder="dd/mm/yyyy" >
                 to <input type="text" name="toDate" size="10" pattern="^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[/](20)\d\d$" placeholder="dd/mm/yyyy" >
