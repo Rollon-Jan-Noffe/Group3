@@ -8,46 +8,50 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-        <form onsubmit="return validate();" name="formEvent">
-            <fieldset>
-                <legend id="eventDetails">Create a New Event</legend>
-                <div class="innerForm">
-                Event Types: <select name="eventTypes" id="eventTypes">
-                    <option value="" disabled selected>Choose one</option>
-                    <option value="Webinar">Webinar</option>
-                    <option value="General Assembly">General Assembly</option>
-                    <option value="Workshop">Workshop</option>
-                    <option value="Fundraising">Fundraising</option>
-                </select> <br><br>
-
-                <!--
-                Event Title: <input type="text" id="title" size="80" name="eventTitle"> <br><br>
-                -->
-
-                <!-- EVENT TITLE -->
-                Event Title: <input type="text" id="title" size="80" name="eventTitle" pattern="[A-Za-z0-9 !?':-,]{3,40}" required> <br><br>
-
-                <!--
-                    Seeing if this will work.
-                -->
-                <!--
-                    Second try. Hope it works.
-                -->
+    <form onsubmit="validateEntry();" name="formEvent">
+        <fieldset>
+            <legend id="eventDetails">Create a New Event</legend>
+            <div class="innerForm">
+            Event Types: <select name="eventTypes" id="eventTypes" required>
+                <option value="" disabled selected>Choose one</option>
+                <option value="Webinar">Webinar</option>
+                <option value="General Assembly">General Assembly</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Fundraising">Fundraising</option>
+            </select> <br><br>
             
-                Event Dates: <input type="text" id="dates" size="10" name="fromDate" pattern="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](20)\d\d$" placeholder="dd/mm/yyyy" >
-                to <input type="text" name="toDate" size="10" pattern="^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[/](20)\d\d$" placeholder="dd/mm/yyyy" >
-                <br><br>
+            <!-- EVENT TITLE -->
+            Event Title: <input type="text" id="title" size="80" name="eventTitle" pattern="[A-Za-z0-9 !?':-,]{3,40}" required> <br><br>
 
-                Posting Date: <input type="text" id="pdate" size="10" name="postingDate" pattern="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](20)\d\d$" placeholder="dd/mm/yyyy" >
+            <!--
+            Event Dates: 
+            <input type="text" id="dates" size="10" name="fromDate" pattern="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](20)\d\d$" placeholder="dd/mm/yyyy" >
+            to 
+            <input type="text" name="toDate" size="10" pattern="^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[/](20)\d\d$" placeholder="dd/mm/yyyy" >
+            -->
 
-                <br><br>
+            <!--EVENT DATES-->
+            <label class="lb3">Event Dates:</label>
+            <input id="eventDateRange1" class="input3" type="date" min="2020-08-17" max="2020-12-31" required>
+            <label class="lb4">to</label> 
+            <input id="eventDateRange2" class="input3" type="date" min="2020-08-17" max="2020-12-31" required>
+            <br><br>
 
-                <input type="checkbox" id="moreDetails"> Is Registration Required?<br><br>
-                <input type="checkbox" id="moreDetails">Is this event associated with any Family Programs?<br><br>
-                <input type="checkbox" id="moreDetails">Upon Registration Completion, Are Users to Receive an Auto Generated Email?<br><br>
-                <input type="checkbox" id="moreDetails">Is There a Point of Contact?<br><br>
-                <input type="checkbox" id="moreDetails">Is There a Hosting Command Point of Contact?<br><br><br>
+            <!--
+            Posting Date: <input type="text" id="pdate" size="10" name="postingDate" pattern="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](20)\d\d$" placeholder="dd/mm/yyyy" >
+            -->
 
+            <!--POSTING DATES-->
+            <!-- AUGUST TO DECEMBER 2020 IS THE ONLY AVAILABLE DATES. So ni-limit ni developer yung dates na gusto ng mga End-User to avoid more complications. -->
+            <label class="lb5">Posting Date:</label>
+            <input id="eventPostDate" class="input3" type="date" min="2020-08-17" max="2020-12-31" required>
+            <br><br>
+
+            <input type="checkbox" id="moreDetails1"> Is Registration Required?<br><br>
+            <input type="checkbox" id="moreDetails2">Is this event associated with any Family Programs?<br><br>
+            <input type="checkbox" id="moreDetails3">Upon Registration Completion, Are Users to Receive an Auto Generated Email?<br><br>
+            <input type="checkbox" id="moreDetails4">Is There a Point of Contact?<br><br>
+            <input type="checkbox" id="moreDetails5">Is There a Hosting Command Point of Contact?<br><br><br>
                 <input type="submit" id="submit" value="Save">
                 <input type="reset" id="cancel" value="Cancel">
                 </div>
