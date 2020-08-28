@@ -1,0 +1,47 @@
+fieldset {
+    width: 1000px;
+    height: 480px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: antiquewhite;
+}
+body{
+    background-color: aquamarine;
+}
+#eventDetails {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.innerForm{
+    margin-left: 40px;
+    position: relative;
+    margin-top: 25px;
+    font-family: cursive;
+    font-size: 14px;
+}
+#submit {
+    width: 85px;
+    height: 25px;
+    margin-left: 370px;
+}
+#cancel{
+    width: 85px;
+    height: 25px;
+}
+#eventTypes {
+    margin-left: 95px;
+}
+#title {
+    margin-left: 102px;
+}
+#dates {
+    margin-left: 95px;
+}
+#pdate {
+    margin-left: 93px;
+}
+
+
+
