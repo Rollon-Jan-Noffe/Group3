@@ -4,6 +4,7 @@ fieldset {
     margin: auto;
     margin-top: 40px;
     background-color: antiquewhite;
+    font-weight: bold;
 }
 body{
     background-color: aquamarine;
