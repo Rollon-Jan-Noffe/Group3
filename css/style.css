@@ -4,9 +4,11 @@ fieldset {
     margin: auto;
     margin-top: 40px;
     background-color: antiquewhite;
+    font-weight: bold;
 }
 body{
     background-color: aquamarine;
+    
 }
 #eventDetails {
     font-weight: bold;
@@ -36,10 +38,10 @@ body{
 #title {
     margin-left: 102px;
 }
-#dates {
+#eventDateRange1 {
     margin-left: 95px;
 }
-#pdate {
+#eventPostDate {
     margin-left: 93px;
 }
 
