@@ -26,6 +26,10 @@ function validate() {
     }
 }
 
+/*
+Tested by Catena - no logical errors and it runs smoothly.
+*/
+
 function validateEntry() {
     //Var = variables na contains information and has a name. 
     var x1=document.getElementById('eventTypes').value;
@@ -46,3 +50,7 @@ function validateEntry() {
         alert("Error! Event Dates and/or Post Dates do not match correctly. \n \n Remember that Post-Date must always be set before the Start of the Event, nothing else. \n \n On the other hand, one (1) day event is applicable in our services. \n \n And so, try to input another valid DATE.");
     }
 }
+
+/*
+Tested by Catena - Validation success.
+*/
