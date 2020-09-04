@@ -1,0 +1,24 @@
+[33m1c439c5[m[33m ([m[1;36mHEAD -> [m[1;32mDISCAYA[m[33m)[m added options in the event types
+[33m7b9560f[m[33m ([m[1;31morigin/rollon[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Changed background color and added animation
+[33mf5e3b55[m placement of created by Group 3
+[33m2027886[m[33m ([m[1;31morigin/catenA[m[33m)[m Merge pull request #7 from Rollon-Jan-Noffe/tanchico
+[33mcc0a6c8[m[33m ([m[1;31morigin/tanchico[m[33m)[m added another option in EventTypes
+[33m506d158[m changed fieldset background-color
+[33mbd615bf[m Merge pull request #6 from Rollon-Jan-Noffe/tanchico
+[33ma48f169[m Update event.html
+[33m0c5b5be[m Merge pull request #5 from Rollon-Jan-Noffe/DeLeon_MilleAndrei
+[33ma74f1a9[m[33m ([m[1;31morigin/DeLeon_MilleAndrei[m[33m)[m Merge branch 'DeLeon_MilleAndrei' of https://github.com/Rollon-Jan-Noffe/Group3 into DeLeon_MilleAndrei
+[33mdcbbb76[m Changed how the Post-Date works in accordance to choosing between Event Dates. And then, a major revision to alert message when the User makes mistake.
+[33md038aaa[m Merge pull request #4 from Rollon-Jan-Noffe/rollon
+[33m3c80138[m Merge pull request #3 from Rollon-Jan-Noffe/master
+[33m6209661[m Merge pull request #2 from Rollon-Jan-Noffe/rollon
+[33m178853a[m added font-weight in fieldset block in css
+[33ma362fe8[m modified the id of event dates and posting date in css
+[33mf043a26[m Merge pull request #1 from Rollon-Jan-Noffe/DeLeon_MilleAndrei
+[33mf18c209[m Modified half of the variables in event.html then revamped the script.js completely. The code is working, I just tested it.
+[33ma1be9fb[m Recently modified textfield of Event Title, added a comment and now, I added new one
+[33m6ead7d4[m Modified the Textfield of Event Title and added a comment
+[33m32588d7[m Modified the Textfield of Event Title - specifically added pattern and required reserve words
+[33m1b9eda7[m changed the font-size
+[33mdb452d0[m changed the title
+[33m054bd05[m Practice Lab 1 project
