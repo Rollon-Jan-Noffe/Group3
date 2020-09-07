@@ -14,10 +14,10 @@ body{
 
 @keyframes pulse {
     50% {
-      background-color: #99FFCC;
+      background-color: #FFFFE0;
     }
     100% {
-      background-color: #CCFFFF;
+      background-color: #00FA9A;
     }
 }
 
